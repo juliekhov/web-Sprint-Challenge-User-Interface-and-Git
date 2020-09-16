@@ -34,30 +34,61 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the proper use of opening and closing tags,
+attributes, images and other elements in a way that has
+meaningful structure to the audience viewing the page.
+This meaningful structure lends to search-optimization
+with headings or even favicons that can make your
+website more recognizable. (tldr:formatting in a meaningful way)
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+(Diff 1) Block elements always move to a new line
+while inline elements stay on the same line
+as long as there is sufficient space.
+
+Ex. (paragraph) on the width of the document.
+
+(Diff 2) Stack together until no more can fit on that line.
+
+Ex.  (span/img tags)
 
 3. What are the 4 areas of the box model?
 
+The innermost area of the box model contains the content,
+which is surrounded by padding, then the border, and a margin
+to create invisible space around that box.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items utilizes the cross-axis of the document.
+
 5. Explain why git is valuable to a team of developers.
+
+Using git allows developers to keep track of all the tiny 
+changes on every branch that developers work on within one project
+as it is a version-control system.
+
+Also, git commands allow for quick access to repository
+files using command line interface.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [ X ] Create a forked copy of this project.
+- [ X ] Add your Team Lead as collaborator on Github.
+- [ X ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [ X ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ X ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ X ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull-request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
+- [ X ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ X ] Add your Team Lead as a reviewer on the pull-request
+- [ X ] Your Team Lead will count the project as complete by merging the branch back into master.
  
 
 
@@ -70,20 +101,20 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ X ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ X ] box1: `teal`
+* [ X ] box2: `gold`
+* [ X ] box3: `cadetblue`
+* [ X ] box4: `coral`
+* [ X ] box5: `crimson`
+* [ X ] box6: `forestgreen`
+* [ X ] box7: `darkorchid`
+* [ X ] box8: `hotpink`
+* [ X ] box9: `indigo`
+* [ X ] box10: `dodgerblue`
 
 ### About Page
 

@@ -66,9 +66,45 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 100%;
+    background: white;
+    margin-top: 5px;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: space-between;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* flex container below */
+
+.flexNav {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* flex children below */
+
+.flexItem {
+margin: 1rem 2.5rem;
+/* font-weight: bold; */
+margin-top: 45px;
 }
 
 .top-content {
@@ -92,24 +128,64 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 }
-
+/* flex container below */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-content:center;
+    height:35vh;
+}
+/* flex items below */
+.middle-content .boxes .box {
+    width: 100px;
+    height: 100px;
+    margin:25px 25px;
+    padding:45px 0;
+    text-align:center;
+    color: white;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.boxes .box1 {
+    background-color: teal;
+}
+
+.boxes .box2 {
+    background-color:gold;
+}
+
+.boxes .box3 {
+    background-color:cadetblue;
+}
+
+.boxes .box4 {
+    background-color:coral;
+}
+
+.boxes .box5 {
+    background-color:crimson;
+}
+
+.boxes .box6 {
+    background-color: forestgreen;
+}
+
+.boxes .box7 {
+    background-color: darkorchid;
+}
+
+.boxes .box8 {
+    background-color: hotpink;
+}
+
+.boxes .box9 {
+    background-color: indigo;
+}
+
+.boxes .box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +219,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* flex container below */
+
+
+.flexAbout {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 0;
+    height:130vh;
+}
+
+/* flex children below */
+
+/* Applies to all 4 pics in about page middle section */
+.flexAbout .flexx {
+    border-bottom: 1px dashed black;
+    margin: 10px 3px;
+    padding-bottom:10px;
+    width: 390px;
+    height: 425px;
+}
+
+.flex1 div {
+    border-bottom:1px dashed black;
+    margin:5px 0;
+    padding-bottom:20px;
+}
+
+.flexAbout .flexx h2 {
+    margin:15px 2px;
+}
+.flexAbout .flexx p {
+    margin:15px 2px;
+}
+/* flex items 2, 3, 4, 5 are the middle four pictures in about page */
+
+/*
+.flexAbout .flex2 {
+    margin: 10px 0;
+    width: 450px;
+    height: 400px;
+}
+
+.flexAbout .flex3 {
+    margin: 10px 0;
+    width: 300px;
+    height: 300px;    
+}
+
+.flexAbout .flex4 {
+    margin: 10px 0;
+    width: 300px;
+    height: 300px;    
+}
+
+.flexAbout .flex5 {
+    margin: 10px 0;
+    width: 300px;
+    height: 300px;    
+} */
+
+/* End of four pictures in about page */
+
+.flexAbout .flex6 {
+    margin: 25px 0;
+    border-bottom:1px dashed black;
+    height:15vh;
+}
+
+middle-container-div {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+}
+
+.flexAbout div.flexx a {
+    color:black;
+    border: solid black 2px;
+    padding:8px 15px;
+    border-radius: 10px;
+    text-decoration:none;
+}
+
+.flexAbout div.flexx a:hover {
+    background-color:hotpink;
 }
